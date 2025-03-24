@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Traffic Flow Prediction System</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body class="bg-gray-100 font-sans">
+      <!-- Navigation Bar -->
+      <nav class="bg-white shadow-md py-4">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+          <a href="#" class="text-2xl font-bold text-blue-600">TrafficFlow</a>
+          <ul class="flex space-x-6">
+            <li><a href="#" class="hover:text-blue-800">Home</a></li>
+            <li><a href="about.html" class="hover:text-blue-800">About</a></li>
+            <li><a href="index.html" class="hover:text-blue-800">Predict</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <header class="bg-blue-100 py-20" style="background-image: url('./img/denys-nevozhai-7nrsVjvALnA-unsplash.jpg'); background-size: cover; background-position: center;">
+        <div class="container mx-auto px-4 text-center text-white">
+          <h1 class="text-4xl font-bold mb-4 fade-in">Predicting the Future of Traffic</h1>
+          <p class="text-lg mb-8 slide-in">
+            Real-time traffic flow predictions powered by AI.
+          </p>
+          <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded slide-in">
+            Get Started
+          </a>
+        </div>
+      </header>
+
+      <!-- How It Works Section -->
+      <section class="py-12">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold text-center mb-8">How It Works</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div>
+              <img src="./img/how-to.jpg" alt="How it works" class="rounded-lg shadow-md">
+            </div>
+            <div class="text-lg">
+              <p class="mb-4">
+                Our system uses historical traffic data and advanced machine learning models to predict future traffic flow.
+              </p>
+              <p class="mb-4">
+                We collect and preprocess data, train an LSTM model, and deploy it via an API.
+              </p>
+              <p>
+                Users can visualize predictions and make data-driven decisions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="py-12">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold text-center mb-8">Key Features</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Feature 1 -->
+            <div class="bg-white shadow-md rounded-lg p-6 text-center">
+              <i class="fas fa-chart-line text-4xl text-blue-600 mb-4"></i>
+              <h3 class="text-xl font-semibold mb-2">LSTM-Based Prediction</h3>
+              <p class="text-gray-700">
+                Utilizes a Long Short-Term Memory model for accurate traffic flow forecasting.
+              </p>
+            </div>
+            <!-- Feature 2 -->
+            <div class="bg-white shadow-md rounded-lg p-6 text-center">
+              <i class="fas fa-database text-4xl text-blue-600 mb-4"></i>
+              <h3 class="text-xl font-semibold mb-2">Real-time Data Analysis</h3>
+              <p class="text-gray-700">
+                Processes historical traffic data to identify trends and patterns.
+              </p>
+            </div>
+            <!-- Feature 3 -->
+            <div class="bg-white shadow-md rounded-lg p-6 text-center">
+              <i class="fas fa-desktop text-4xl text-blue-600 mb-4"></i>
+              <h3 class="text-xl font-semibold mb-2">User-Friendly Interface</h3>
+              <p class="text-gray-700">
+                Provides an intuitive interface for visualizing predictions and insights.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Benefits Section -->
+      <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold text-center mb-8">Benefits</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Benefit 1 -->
+            <div class="bg-white shadow-md rounded-lg p-6 text-center">
+              <i class="fas fa-road text-4xl text-green-600 mb-4"></i>
+              <h3 class="text-xl font-semibold mb-2">Improved Traffic Management</h3>
+              <p class="text-gray-700">
+                Optimize traffic flow and reduce congestion.
+              </p>
+            </div>
+            <!-- Benefit 2 -->
+            <div class="bg-white shadow-md rounded-lg p-6 text-center">
+              <i class="fas fa-chart-area text-4xl text-green-600 mb-4"></i>
+              <h3 class="text-xl font-semibold mb-2">Data-Driven Decisions</h3>
+              <p class="text-gray-700">
+                Make informed decisions based on accurate traffic predictions.
+              </p>
+            </div>
+            <!-- Benefit 3 -->
+            <div class="bg-white shadow-md rounded-lg p-6 text-center">
+              <i class="fas fa-clock text-4xl text-green-600 mb-4"></i>
+              <h3 class="text-xl font-semibold mb-2">Reduced Commute Times</h3>
+              <p class="text-gray-700">
+                Help drivers plan their routes more efficiently.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="bg-gray-200 py-6 mt-12">
+        <div class="container mx-auto px-4 text-center text-gray-600">
+          &copy; 2024 TrafficFlow. All rights reserved.
+        </div>
+      </footer>
+    </body>
+    </html>

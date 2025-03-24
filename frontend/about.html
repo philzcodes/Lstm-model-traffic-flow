@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>About Traffic Flow Prediction System</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="./src/index.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body class="bg-gray-100 font-sans">
+      <!-- Navigation Bar -->
+      <nav class="bg-white shadow-md py-4">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+          <a href="index.html" class="text-2xl font-bold text-blue-600">TrafficFlow</a>
+          <ul class="flex space-x-6">
+            <li><a href="home.html" class="hover:text-blue-800">Home</a></li>
+            <li><a href="about.html" class="hover:text-blue-800">About</a></li>
+            <li><a href="index.html" class="hover:text-blue-800">Predict</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- About Section -->
+      <section class="py-12">
+        <div class="container mx-auto px-4">
+          <h1 class="text-3xl font-bold mb-8">About Traffic Flow Prediction System</h1>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="text-lg text-gray-700">
+              <p class="mb-4">
+                Traffic Flow Prediction System is a project designed to forecast traffic volume using machine learning.
+              </p>
+              <p class="mb-4">
+                The system utilizes an LSTM model trained on historical traffic data to predict future traffic flow.
+              </p>
+              <p class="mb-4">
+                This project aims to provide insights for traffic management and urban planning.
+              </p>
+              <h2 class="text-2xl font-bold mt-8 mb-4">Technologies Used</h2>
+              <ul class="list-disc list-inside">
+                <li>HTML, CSS, JavaScript</li>
+                <li>Tailwind CSS</li>
+                <li>FastAPI</li>
+                <li>TensorFlow/Keras</li>
+              </ul>
+            </div>
+            <div>
+              <img src="./img/lukas-blazek-mcSDtbWXUZU-unsplash.jpg" alt="Traffic Image" class="rounded-lg shadow-md">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="bg-gray-200 py-6 mt-12">
+        <div class="container mx-auto px-4 text-center text-gray-600">
+          &copy; 2024 TrafficFlow. All rights reserved.
+        </div>
+      </footer>
+    </body>
+    </html>
