@@ -13,7 +13,7 @@ app = FastAPI()
 # Allow requests from your frontend (adjust origins as needed)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:5500"],  # Replace with frontend URL
+    allow_origins=["http://127.0.0.1:5500", "https://traffic-flow-prediction.netlify.app"],  # Replace with frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
