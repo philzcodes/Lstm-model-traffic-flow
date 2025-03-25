@@ -32,7 +32,8 @@
 //     }
 // }
 
-const API_URL = "http://127.0.0.1:8000/predict/";
+//const API_URL = "http://127.0.0.1:8000/predict/";
+const API_URL ="https://lstm-model-traffic-flow.onrender.com/predict/";
 let chartInstance = null;
 
 async function predictTraffic() {
